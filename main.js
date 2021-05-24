@@ -46,6 +46,7 @@ function draw(){
                     noFill();
                     stroke(r,g,b);
                     rect(objects[i].x,objects[i].y,objects[i].width,objects[i].height);
+                    audio.pause();
                 }
 
                 else{
